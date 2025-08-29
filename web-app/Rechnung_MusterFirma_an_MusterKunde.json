@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "created_with": "Micropolis E-Rechnung Tools",
+    "file_type": "Create Invoice Savefile",
+    "version": 1
+  },
+  "invoice": {
+    "InvoiceCurrencyCode": "EUR",
+    "ExchangedDocument:ID": "RE-12345",
+    "IssueDateTime:DateTimeString": "2. April 2000",
+    "OccurrenceDateTime:DateTimeString": "1. April 2000"
+  },
+  "seller": {
+    "SellerTradeParty:Name": "Muster Firma",
+    "SellerTradeParty:LineOne": "Muster Adresse",
+    "SellerTradeParty:PostcodeCode": "12345",
+    "SellerTradeParty:CityName": "Muster Stadt",
+    "SellerTradeParty:SpecifiedTaxRegistration": "DE136695976"
+  },
+  "buyer": {
+    "BuyerTradeParty:Name": "Muster Kunde",
+    "BuyerTradeParty:LineOne": "Muster Adresse",
+    "BuyerTradeParty:PostcodeCode": "12345",
+    "BuyerTradeParty:CityName": "Muster Stadt",
+    "BuyerTradeParty:BuyerReference": "Kunden-Referenz z.B. Warenkorb-ID"
+  },
+  "lineitems": [
+    {
+      "SpecifiedTradeProduct:Name": "Musterprodukt 1",
+      "NetPriceProductTradePrice:ChargeAmount": 100,
+      "NetPriceProductTradePrice:BasisQuantity": "1.0",
+      "ApplicableTradeTax:RateApplicablePercent": 19,
+      "SpecifiedLineTradeDelivery:BilledQuantity": 2,
+      "SpecifiedLineTradeSettlement:LineTotalAmount": 200
+    },
+    {
+      "SpecifiedTradeProduct:Name": "Musterprodukt 2",
+      "NetPriceProductTradePrice:ChargeAmount": 200,
+      "NetPriceProductTradePrice:BasisQuantity": 2,
+      "ApplicableTradeTax:RateApplicablePercent": 19,
+      "SpecifiedLineTradeDelivery:BilledQuantity": 3,
+      "SpecifiedLineTradeSettlement:LineTotalAmount": 600
+    },
+    {
+      "SpecifiedTradeProduct:Name": "Musterprodukt 3",
+      "NetPriceProductTradePrice:ChargeAmount": 300,
+      "NetPriceProductTradePrice:BasisQuantity": 3,
+      "ApplicableTradeTax:RateApplicablePercent": 7,
+      "SpecifiedLineTradeDelivery:BilledQuantity": 6,
+      "SpecifiedLineTradeSettlement:LineTotalAmount": 1800
+    }
+  ],
+  "payment": {
+    "PayeePartyCreditorFinancialAccount:AccountName": "Muster Kontoinhaber",
+    "PayeePartyCreditorFinancialAccount:IBANID": "DE89370400440532013000",
+    "PayeePartyCreditorFinancialAccount:BICID": "MUSTERBICXX",
+    "SpecifiedTradePaymentTerms:Description": "Muster Zahlungsbedingungen",
+    "DueDateDateTime:DateTimeString": "8.4.2000"
+  },
+  "taxHelper": {
+    "7": 1800,
+    "19": 800
+  },
+  "MonetarySummation": {
+    "LineTotalAmount": 2600,
+    "TaxBasisTotalAmount": 2600,
+    "ChargeTotalAmount": 0,
+    "AllowanceTotalAmount": 0,
+    "TaxTotalAmount": 278,
+    "GrandTotalAmount": 2878,
+    "TotalPrepaidAmount": 0,
+    "DuePayableAmount": 2878
+  }
+}

@@ -8,7 +8,7 @@ Unter den Dateien sind überwiegend Dateien mit gezielt eingebauten Fehlern. Zie
 
 Kurze Beschreibungen zu den einzelnen Dateien finden sich in den entsprechenden Unterverzeichnissen:
 
-- [zugferd/](https://github.com/micropolis/electronic-invoice-corpus/tree/master/zugferd) – ZUGFeRD 2.x Beispielrechnungen (XML + PDF/A-3)
+- [zugferd/](https://github.com/micropolis/electronic-invoice-corpus/tree/master/zugferd) – ZUGFeRD Beispielrechnungen (PDF/A-3 + XML, in Version 2.x u.a.)
 - [xml/](https://github.com/micropolis/electronic-invoice-corpus/tree/master/xml) – XML-Beispiele (EN 16931 etc., Factur-X)
 - [web-app/](https://github.com/micropolis/electronic-invoice-corpus/tree/master/web-app) – Savefiles der ZUGFeRD Web-App
 
@@ -33,7 +33,7 @@ Beiträge sind willkommen! Wer weitere Beispieldateien beisteuern möchte oder V
 Die Inhalte dieses Repositoriums stehen unter der **Creative Commons Attribution 4.0 International (CC BY 4.0)** Lizenz.
 
 > Die Dateien dürfen frei verwendet, verändert und weitergeben werden – auch kommerziell – **solange eine angemessene Namensnennung erfolgt**.  
-> Bitte verweisen Sie in Ihrer Dokumentation oder Projekt auf dieses Repository und/oder den Autor.
+> Bitte verweisen Sie in Ihrer Dokumentation oder Ihrem Projekt auf dieses Repository und/oder den Autor, die Micropolis GmbH.
 
 Lizenztext: [https://creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0)
 

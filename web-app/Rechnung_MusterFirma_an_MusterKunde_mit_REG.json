@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "created_with": "Micropolis E-Rechnung Tools",
+    "file_type": "Create Invoice Savefile",
+    "version": 1
+  },
+  "invoice": {
+    "InvoiceCurrencyCode": "EUR",
+    "ExchangedDocument:ID": "RE-12345",
+    "IssueDateTime:DateTimeString": "2. April 2000",
+    "OccurrenceDateTime:DateTimeString": "1. April 2000",
+    "ExchangedDocument:IncludedNote:REG1": "Sitz der Gesellschaft ist Berlin",
+    "ExchangedDocument:IncludedNote:REG2": "Registergericht Charlottenburg HRB12345",
+    "ExchangedDocument:IncludedNote:REG3": "Geschäftsführer: Max Muster",
+    "ExchangedDocument:IncludedNote:AAI": "Vielen Dank für Ihren Einkauf"
+  },
+  "seller": {
+    "SellerTradeParty:Name": "Muster Firma",
+    "SellerTradeParty:LineOne": "Muster Adresse",
+    "SellerTradeParty:PostcodeCode": "12345",
+    "SellerTradeParty:CityName": "Muster Stadt",
+    "SellerTradeParty:SpecifiedTaxRegistration": "DE136695976"
+  },
+  "buyer": {
+    "BuyerTradeParty:Name": "Muster Kunde",
+    "BuyerTradeParty:LineOne": "Muster Adresse",
+    "BuyerTradeParty:PostcodeCode": "12345",
+    "BuyerTradeParty:CityName": "Muster Stadt",
+    "BuyerTradeParty:BuyerReference": "Kunden-Referenz z.B. Warenkorb-ID"
+  },
+  "lineitems": [
+    {
+      "SpecifiedTradeProduct:Name": "Musterprodukt 1",
+      "NetPriceProductTradePrice:ChargeAmount": 100,
+      "NetPriceProductTradePrice:BasisQuantity": "1.0",
+      "ApplicableTradeTax:RateApplicablePercent": 19,
+      "SpecifiedLineTradeDelivery:BilledQuantity": 1,
+      "SpecifiedLineTradeSettlement:LineTotalAmount": 100
+    },
+    {
+      "SpecifiedTradeProduct:Name": "Musterprodukt 2",
+      "NetPriceProductTradePrice:ChargeAmount": 200,
+      "NetPriceProductTradePrice:BasisQuantity": 2,
+      "ApplicableTradeTax:RateApplicablePercent": 19,
+      "SpecifiedLineTradeDelivery:BilledQuantity": 2,
+      "SpecifiedLineTradeSettlement:LineTotalAmount": 400
+    },
+    {
+      "SpecifiedTradeProduct:Name": "Musterprodukt 3",
+      "NetPriceProductTradePrice:ChargeAmount": 300,
+      "NetPriceProductTradePrice:BasisQuantity": 3,
+      "ApplicableTradeTax:RateApplicablePercent": 7,
+      "SpecifiedLineTradeDelivery:BilledQuantity": 3,
+      "SpecifiedLineTradeSettlement:LineTotalAmount": 900
+    }
+  ],
+  "payment": {
+    "PayeePartyCreditorFinancialAccount:AccountName": "abweichender Muster-Kontoinhaber",
+    "PayeePartyCreditorFinancialAccount:IBANID": "DE89370400440532013000",
+    "PayeePartyCreditorFinancialAccount:BICID": "MUSTERBICXX",
+    "SpecifiedTradePaymentTerms:Description": "Muster-Zahlungsbedingungen",
+    "DueDateDateTime:DateTimeString": "08.04.2000"
+  },
+  "taxHelper": {
+    "7": 900,
+    "19": 500
+  },
+  "MonetarySummation": {
+    "LineTotalAmount": 1400,
+    "TaxBasisTotalAmount": 1400,
+    "ChargeTotalAmount": 0,
+    "AllowanceTotalAmount": 0,
+    "TaxTotalAmount": 158,
+    "GrandTotalAmount": 1558,
+    "TotalPrepaidAmount": 0,
+    "DuePayableAmount": 1558
+  }
+}
