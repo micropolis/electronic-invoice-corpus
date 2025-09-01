@@ -4,6 +4,8 @@ Dieses Verzeichnis enthält XML-Dateien, wie sie in ZUGFeRD Rechnungen eingebett
 EN 16931 für Strukur und enhaltene Informationen. Derzeit keine UBL Demodateien. Format ist UN/CEFACT CII. XML-Dateien, wie diese hier, können
 mit dem browserbasierten Validierungstool des ZUGFeRD-Portals geprüft werden.
 
+Die Dateien können z.B. auf dem [ZUGFeRD Portal](https://zugferd.goeszen.com/) getestet werden.
+
 ## Dateien:
 
 - `invalid-currencyCodeDiffers-en16931.xml` - Währungsangaben im Kopf und der Schlusskalkulation sind unterschiedlich

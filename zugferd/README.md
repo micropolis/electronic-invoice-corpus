@@ -3,6 +3,8 @@
 Dieses Verzeichnis enthält ZUGFeRD Rechnungen und Testfiles. ZUGFeRD ist ein hybrides Rechnungsformat, das den sichtbaren Teil einer PDF-Rechnung mit einem
 angehängten maschinenlesbaren XML-File verbindet.
 
+Die Dateien können z.B. auf dem [ZUGFeRD Portal](https://zugferd.goeszen.com/) getestet werden.
+
 ## Dateien:
 
 - `invalid-incompleteXmp-validPdfA3b-validXml.pdf` - valide PDF/A-3b Datei und valides XML, aber die XMP-Daten definieren kein ConformanceLevel

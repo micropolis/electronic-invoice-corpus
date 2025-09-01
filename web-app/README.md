@@ -2,7 +2,9 @@
 
 Dieses Verzeichnis enthält Dateien, die aus der ZUGFeRD-Portal Web-App über den Button "Speichern" (unten rechts) exportiert wurden. Die Dateien
 beschreiben eine elektronische Rechnung in einem proprietären JSON-Format. Über den Button "Datei wählen" (hochladen, oben links) lassen sich
-die hier enthaltenen Rechnungen in der Web-App wiederherstellen.
+die hier enthaltenen Rechnungen in der [Web-App](https://zugferd.goeszen.com/) wiederherstellen.
+
+Die Dateien können z.B. auf dem [ZUGFeRD Portal](https://zugferd.goeszen.com/) getestet werden.
 
 ## Dateien:
 
